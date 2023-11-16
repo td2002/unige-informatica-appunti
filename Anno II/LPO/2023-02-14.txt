@@ -1,0 +1,39 @@
+1 no
+2 no
+3 gruppo 2
+4 gruppo 4
+5 no
+6 gr 1
+
+--------
+a a a
+
+Exp := Exp Atom | Atom
+"
+-----------
+p.m short XXX
+p.m short XXX
+h.m short XXX
+p.m number
+p.m number
+h.m float XXX
+
+-------------------------------------------
+
+1 no
+2 no
+3 gr 4
+4 gr 3
+5 gr 2
+6 gr 4
+--------------
+Exp := Exp and atom | Atom
+XFirst
+Atom "
+-----------
+p.m float
+p.m float
+h.m int
+p.m double
+p.m double
+error XXX (eredita)

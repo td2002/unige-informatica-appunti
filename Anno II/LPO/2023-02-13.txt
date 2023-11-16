@@ -1,0 +1,34 @@
+assert
+1 ok
+2 ok XXX
+3 ok
+4 ok
+5 no
+6 no
+
+a) caso 1 p.m long
+b) caso 3 h.m int XXX
+c) uguale
+d) caso 2 p.m long...
+e) caso 4 h.m int... XXX
+f) uguale
+
+
+--------------------------
+
+
+1 no
+2 ok
+3 ok
+4 no
+5 ok
+6 no XXX
+
+base ::= Id | {Exp}
+
+a) p.m double
+b) uguale
+c) h.m float
+d) p.m double[]
+e) uguale
+f) h.m float[] XXX
