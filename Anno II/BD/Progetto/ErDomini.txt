@@ -1,0 +1,40 @@
+- Domini non indicati sono stringhe o numeri di lunghezza arbitraria
+- Campi tra parentesi graffe vanno a costituire una tabella a parte di definizione valori
+
+
+Scuola:
+- Provincia: stringa di 2 lettere ∊ {GE, BO, TN, ...}
+- Codice: stringa 10 chars
+- Ciclo: {primo, secondo}
+- Collab: bool
+
+Persona:
+- Ruolo: {docente, dirigente, animatore digitale, ...}
+
+Classe:
+- Nome: stringa 2 chars
+- Ordine: {primaria, secondaria di primo grado, liceo scienze applicate, agrario, ...}
+
+Orto:
+- Tipo: {pieno campo, vaso}
+- Controllo: bool
+
+Specie:
+- Esposiz: {sole, ombra, mezz'ombra, ...}
+
+Gruppo:
+- ID: numero progressivo
+- Scopo: {biomonitoraggio, fitobonifica}
+- Tot: numero di repliche contenute, default 20
+
+Replica:
+- Num: progressivo all'interno del gruppo
+
+Sensore:
+- Tipo: {umidità, pH, temperatura, ...}
+- Num: progressivo all'interno dell'orto
+
+Info:
+- Tipo: {umidità, pH, temperatura, ...}
+- Modalità: {app, Arduino}
+

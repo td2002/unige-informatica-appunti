@@ -1,0 +1,27 @@
+Rimozione di una istanza di Scuola solo se non esistono classi di altre scuole i cui gruppi fanno riferimento agli orti della scuola da rimuovere
+
+Rimozione di istanza di Persona solo se non è l'unico referente di una scuola, se non è partecipante di progetto di una classe, se non ha eseguito osservazioni o rilevazioni
+
+Rimozione di istanza di Classe solo se non gestisce gruppi, se non ha eseguito osservazioni o rilevazioni
+
+Istanza di Classe deve avere un docente di riferimento se gestisce almeno un gruppo
+
+Rimozione di istanza di Orto solo se non contiene gruppi oppure se nessuno dei suoi sensori ha generato informazioni
+
+Rimozione di istanza di Sensore solo se non ha generato informazioni oppure se è l'unico su una replica
+
+Inserimento di gruppo di controllo non può effettuarsi nello stesso orto del gruppo trattato
+
+Rimozione di istanza di Gruppo solo se non ha gruppo di controllo e non è gruppo di controllo
+
+Un gruppo di controllo possiede attributo IDControllo null mentre il gruppo trattato contiene l'ID del proprio gruppo di controllo
+
+Rimozione di istanza di Specie solo se non esiste gruppo contenente tale specie
+
+Rimozione di istanza di Replica solo se non è stata osservata
+
+Rimozione di istanza di Replica modifica attributo Tot di Gruppo, se il gruppo è di controllo necessità di modificare gruppi controllati in quanto numero di repliche deve essere uguale (alternativamente rimozione di una replica di gruppo di controllo genera necessità di eliminare tute le altre all'interno del gruppo)
+
+Rimozione di una istanza tra Osservazione, Rilevazione o Info è possibile solo rimuovendo tutte le altre all'interno di queste tre a essa collegate
+
+Valore di informazione dipende da tipo informazione (ad es., se tipo "pH" valore in [0, 14], se "umidità" valore in [0, 100], ...)
