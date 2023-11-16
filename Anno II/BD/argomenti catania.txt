@@ -1,0 +1,20 @@
+organizzazione record e file db su hdd
+gestore file / gestore buffer
+
+indici: cosa sono, perché
+indici ad albero: struttura e costi (b+ tree)
+indici hash: struttura e costi
+-di entrambi: non-/clusterizzati ; primari/secondari ; mono-/multiattributo
+
+piano logico (1) -> piani fisici (molti): scelte
+operatori fisici
+-selezione: seq scan, index scan con condizione e fattori booleani
+-join: merge / index nested / nested loop (semplice/blocchi) / hash
+
+selezione piano fisico da eseguire tramite stime costi e peso
+-materializzazione/pipelining (organizzazione left deep: perché)
+
+controllo accesso: cosa serve, come si fa (grant/revoke)
+transazioni: cosa sono, perché
+-proprietà ACID ; valutazione vincoli immediata/differita ; autocommit
+trigger (?): esecuzione orientata a istanza/insieme

@@ -1,0 +1,20 @@
+diagramma ER:
+-chiavi esterne dalla parte di (0/1, 1) nel caso 1 a molti
+-segnare tutte le chiavi candidate (italics) nell'ER (pallino nero)
+-per chiavi esterne e primarie, pallino nero vicino alla relazione di cui primaria
+-gerarchie: t/p, c/e (totale/parziale) (condivisa/esclusiva)
+
+normalizzazione:
+-dipendenze funzionali
+-metodo della chiusura per trovare chiavi a partire da FDs
+-BCNF / 3NF
+-decomposizione senza/con perdita ; con/senza mantenimento FDs
+
+algebra relazionale:
+-proiezione π: come select distinct
+-selezione σ: come where
+-join ⋈: specificare filtro (chiavi esterna/primaria)
+-operazioni insiemistiche: intersect, union, subtract
+-divisione: restituzione tutte tuple che sono collegate a tutti i valori della parte destra del ÷
+
+
