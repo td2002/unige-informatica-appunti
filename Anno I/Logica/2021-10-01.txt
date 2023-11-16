@@ -1,0 +1,19 @@
+dimostrazione diretta
+- "classica"
+
+dimostrazione x contrapposizione
+- se P allora Q
+- dimostro: se non Q allora non P --> equivalente
+- "se studio passo l'esame"
+
+dimostrazione x composizione
+- se P1, P2, ... Pn allora Q
+- e: se Q allora R
+- --> se P1, P2, ... Pn allora R
+
+dimostrazione x casi
+- se P allora Q
+- dove P: P1 o P2 o ... Pn
+- di solito conviene dimostrare teoremi separatamente
+
+ 

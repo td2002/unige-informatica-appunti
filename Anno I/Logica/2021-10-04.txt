@@ -1,0 +1,37 @@
+|= conseguenza logica
+
+not: negazione
+singola proposizione, genera una nuova
+
+congiunzione: asserisce entrambe le affermazioni alle quali si applica
+P ^ (and) Q è vera  sse P, Q entrambe vere
+oggi è lunedì, piove: congiunzione vera
+oggi è martedì, piove: cong. falsa
+P ^ Q equivalente Q ^ P: proprietà commutativa, associativa
+
+disgiunzione: asserisce verità di almeno una delle asserzioni a cui si applica
+P v Q (P or Q) è vera  sse almeno una tra P, Q è vera
+P: x è pari
+Q: x è un quadrato perfetto
+P v Q
+se x=16 è vera (entrambe vere)
+se x=20 è vera (P vera, Q falsa)
+se x=49 è vera (P falsa, Q vera)
+se x=53 è falsa (P falsa, Q falsa)
+P ^ Q |= P v Q
+proprietà commutativa, associativa
+P |= P v Q; Q |= P v Q 
+P v Q, -P |= Q (se sappiamo che P falsa, Q vera)
+
+tautologie
+P v -P sempre vera
+contraddizioni
+-(P v -P) === P ^ -P: sempre falsa
+da una contr. segue qualunque cosa: troppo informativa che si può dedurre tutto
+implicazione
+P->Q tutte le volte in cui P è vera anche Q è vera
+x > 7 -> x+5 > 10 : implicazione vera
+anche se x=6: se 6>7 -> 6+5 > 10 vero
+anche se x=3: 3 non è mai maggiore di 7 quindi 3+5 > 10 vero,
+ se P falso impl sempre vera qualunque Q
+implicazione falsa sse: P è vero e Q falso === -P v Q
