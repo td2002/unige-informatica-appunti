@@ -1,0 +1,16 @@
+lunghezza variabile: posizionale, es. decimale
+interi, positivi
+
+codici numerici:
+-sinteticità
+-algoritmi (+ - * /)
+
+base 16
++ compattezza (sinteticità)
+
+base 8
+
+base 2
+
+lunghezza fissa:
+vantaggio implementativo macchine
