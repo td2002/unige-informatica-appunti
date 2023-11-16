@@ -1,0 +1,14 @@
+costo di		in theta di
+
+ric. dicotomica:	migliore: 1
+			peggiore: n log n
+
+selection sort:	n^2 sempre
+
+insertion sort:	migliore: n
+			peggiore: n^2
+
+bubble sort:	migliore: n
+			peggiore: n^2
+
+merge sort:		n log n sempre
