@@ -1,2 +1,2 @@
-# unige-appunti
+# unige-informatica-appunti
 Appunti UniGe - Triennale Informatica
